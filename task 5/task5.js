@@ -3,10 +3,10 @@
 UI частина - поле для вводу та кнопка. */
 
 const submitButton = document.getElementById('submit-button');
-const inputArea = document.getElementById('input-area').value;
 
 
 submitButton.addEventListener('click', function() {
+    const inputArea = document.getElementById('input-area').value;
     let inputToArray = inputArea.split(',');
     for (i = 0; i < inputToArray.length; i++) {
         inputToArray[i] = Number(inputToArray[i]);
