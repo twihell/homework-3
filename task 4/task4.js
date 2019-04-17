@@ -4,7 +4,7 @@
 const newString = 'Якщо ви не здаєтеся, це має значення';
 
 function stringToArray(newString) {
-    return newString.split();
+    return newString.split(' ');
 }
 
 console.log(stringToArray(newString));

@@ -11,13 +11,14 @@ while (i < 1000) {
     
     if (i % age === 0) {
         sum += i;
-        console.log(sum);
     }
     i++;
 } 
+console.log(sum);
 
 // for (i = 0; i < 1000; i++) {
 //     if (i % age === 0) {
-//         console.log(sum += i);
+//         sum += i
 //     }
 // } 
+// console.log(sum);
