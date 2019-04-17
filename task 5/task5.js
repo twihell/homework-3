@@ -8,7 +8,6 @@ const submitButton = document.getElementById('submit-button');
 submitButton.addEventListener('click', function() {
     const inputArea = document.getElementById('input-area').value;
     let inputToArray = inputArea.split(',');
-    let correct = true;
     for (i = 0; i < inputToArray.length; i++) {
         inputToArray[i] = Number(inputToArray[i]);
     }
